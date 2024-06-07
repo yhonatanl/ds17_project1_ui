@@ -7,7 +7,6 @@ import wikipedia
 import textwrap
 import json
 import streamlit as st
-#test
 
 api_key = 'f513b165eec4b1323ce1b29006f77ffe'
 
