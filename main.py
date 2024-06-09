@@ -82,7 +82,7 @@ def get_city_info():
         )
         if unit_symbol == 'F':
             fweatherinfo = (weatherinfo.json()["main"]["temp"] * 9 / 5) + 33.8
-            fweatherinfofeelslike = (weatherinfo.json()["main"]["feels_like"])
+            fweatherinfofeelslike = (weatherinfo.json()["main"]["feels_like"]* 9 / 5) + 33.8
             st.write(f'\nThe temperature in {city_name}: right now is {fweatherinfo:.2f}°{unit_symbol}, '
                      f'and it feels like {fweatherinfofeelslike:.2f}°{unit_symbol}')
             st.write(f'\nHumidity Level: {weatherinfo.json()["main"]["humidity"]}%')
