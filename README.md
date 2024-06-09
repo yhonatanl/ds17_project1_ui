@@ -16,7 +16,8 @@ Additionally, as an extra feature, a brief summary of the selected location is p
 ### Online Usage
 
 The easiest way to run this app is by using the following link:
-[Streamlit App](https://ds17project1ui-nvwfemsypwwhcxpu7axo5b.streamlit.app/)
+
+https://github.com/yhonatanl/ds17_project1_ui
 
 ### Local Installation
 
