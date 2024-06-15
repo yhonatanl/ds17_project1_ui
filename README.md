@@ -9,7 +9,7 @@ This app provides users with the current time and date on their system, the time
 
 A list of five cities is available in the `settings.json` file, with the first city set as the default. Users can select one of these cities or type the name of any city to get its weather information. After retrieving the information, users have the option to change the default city to the newly selected one. The new default city will be displayed to the next user who runs the app.
 
-Additionally, as an extra feature, a brief summary of the selected location is provided using Wikipedia's API, making this project even more unique.
+Additionally, as an extra feature, a brief summary of the selected location is provided using Wikipedia's API.
 
 ## Installation and Usage
 
