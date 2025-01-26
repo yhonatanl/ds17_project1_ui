@@ -2,14 +2,20 @@
 
 ## Introduction
 
-Welcome to my first project :)
-This projectis as part of the DS17 Course at Bar Ilan. 
+Welcome to My First Project! 🎉
+This project was created as part of the DS17 Course at Bar-Ilan University.
 
-This app provides users with the current time and date on their system, the time in a selected city, and the weather in that city.
+The app offers the following features:
 
-A list of five cities is available in the `settings.json` file, with the first city set as the default. Users can select one of these cities or type the name of any city to get its weather information. After retrieving the information, users have the option to change the default city to the newly selected one. The new default city will be displayed to the next user who runs the app.
+Current Time and Date: Displays the time and date on the user's system.
+City Time and Weather: Shows the time and weather for a selected city.
+Key details:
 
-Additionally, as an extra feature, a brief summary of the selected location is provided using Wikipedia's API.
+A predefined list of five cities is available in the settings.json file, with the first city set as the default.
+Users can select a city from the list or type the name of any other city to view its weather information.
+After retrieving the data, users can optionally set the newly selected city as the default. This default city will be saved and displayed for the next user.
+Bonus Feature:
+The app also provides a brief summary of the selected location using Wikipedia's API, adding an informative touch to the experience.
 
 ## Installation and Usage
 
